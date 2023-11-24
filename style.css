@@ -1,0 +1,98 @@
+body{display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;}
+    .container{
+        display: grid;
+        height: 100vh;
+        max-width: 100%;
+        grid-template-columns: 1fr 2fr;
+        padding: 0%;
+        position: relative;
+    }
+    .left{background-color: #DDF2FD;
+          text-align: center;
+    max-height: 100%;
+margin: 0%;
+padding: 20px;}
+    .right{background-color: whitesmoke;
+    max-height: 100%;
+margin: 0%;
+padding: 20px;}
+.profile-picture{position: relative;
+    margin-left: 130px;
+    margin-top: 30px;
+    height: 180px;
+    max-width: 200px;
+    background-color: white;}
+h2{background-color: #164863;
+color: white;
+max-width: 170px;
+text-align: center;
+margin-left: 130px;
+padding: 5px;
+font-size: medium;
+font-family: 'Montserrat', sans-serif;}
+h3{text-align: left;
+margin-left: 130px;
+margin-top: 10px;
+margin-bottom: 5px;
+font-family: 'Montserrat', sans-serif;
+font-size: small;
+font-weight: bolder;
+}
+p{ text-align: left;
+    margin-left: 130px;
+ margin-top: 5px;
+ font-family: 'Montserrat', sans-serif;
+ font-size: small;
+ font-size: 15px;
+}
+li{text-align: left;
+margin-left: 105px;
+font-family: 'Montserrat', sans-serif;
+font-size: small;
+font-weight: bolder;
+margin-bottom: 10px;
+}
+ul{list-style-type: square;}
+h1{text-align: left;
+   font-family: 'Poppins', sans-serif;
+   color: #164863;
+   font-size: 50px;
+   padding: 0%;
+margin-left: 130px;
+margin-top: 30px;
+margin-bottom: 0%;}
+h1+p{margin-top: 1px;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 93px;
+
+}
+.right>h2+p{margin-bottom: 37px;
+padding: 0%;
+}
+br{display: block;
+    margin: 100px;
+}
+@media (min-width: 481px) and (max-width: 1200px){
+    h1{margin-left: 50px;}
+    h2{margin-left: 50px;}
+    p{margin-left: 50px;}
+    h3{margin-left: 50px;}
+    li{margin-left: 28px;}
+    .profile-picture{margin-left: 50px;}
+}
+@media (min-width: 319px) and (max-width: 480px){
+    h1{margin-left: 35px;}
+    h2{margin-left: 35px;}
+    p{margin-left: 35px;
+        font-size: small;
+    }
+    h3{margin-left: 35px;}
+    li{margin-left: 13px;}
+    .profile-picture{margin-left: 35px;}
+}
